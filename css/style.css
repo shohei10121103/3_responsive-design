@@ -58,7 +58,7 @@
   clear: both;
 }
 
-.q5-box,.q5,.q6-box,.q6,.q7,.q7-box{
+.q5-box,.q5,.q6-box,.q6,.q7-box{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +71,10 @@
 
 /*q5*/
 
+.q5-box{
+  flex-direction: row;
+}
+
 .c-orange-box{
   background: #ff8400;
 }
@@ -79,14 +83,17 @@
 
 .a-green-box{
   background: #22ff00;
+  order: 0;
 }
 
 .b-yellow-box{
   background: #d4ff00;
+  order: 0;
 }
 
 .c-pink-box{
   background: #ff00e1;
+  order: 0;
 }
 
 /*Q7*/
