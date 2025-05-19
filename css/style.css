@@ -83,26 +83,32 @@
 
 .a-green-box{
   background: #22ff00;
-  order: 0;
+  order: 1;
 }
 
 .b-yellow-box{
   background: #d4ff00;
-  order: 0;
+  order: 2;
 }
 
 .c-pink-box{
   background: #ff00e1;
-  order: 0;
+  order: 3;
 }
 
 /*Q7*/
 
+.pc-red-box{
+  display: block;
+}
+
+.sp-blue-box{
+  display: block;
+}
+
 .q7-green-box{
   background: #00ff51;
 }
-
-
 
 @media  screen and (min-width:961px) {
   .sp-blue-box{
